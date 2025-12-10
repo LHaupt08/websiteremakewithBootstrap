@@ -23,26 +23,43 @@
 
    </head>
 
-<body class="bg-light container-lg px-0">
-   <header style="background: url(./img/gp_back1.png) center / cover no-repeat;" class="mx-auto rounded-top-3 bg justify-content-center d-flex">
-      <img src="./img/gp_logo.png" alt="Golden Pulp" />
-   </header>
-   
-   <nav class="order-md-0 order-1">
-      <ul class="nav bg-warning nav-fill">
-         <li class="nav-item">
-          <a class="nav-link text-black" aria-current="page" href="#">Home</a>
-        </li>
-         <li class="nav-item"><a class="nav-link text-black" href="#">Comic Books</a></li>
-         <li class="nav-item"><a class="nav-link text-black" href="#">Characters</a></li>
-         <li class="nav-item"><a class="nav-link text-black" href="#">Artists</a></li>
-         <li class="nav-item"><a class="nav-link text-black" href="#">Writers</a></li>
-      </ul>
-   </nav>
+<body class="bg-success-subtle container-lg px-0">
       
-      <div class="container-12">
+      <div class="container-12 d-flex flex-column shadow-lg">
 
-         <div class="row m-0">
+         <div class="row m-0 order-0">
+
+            <div class="col-12 px-0">
+
+               <header style="background: url(./img/gp_back1.png) center / cover no-repeat;" class="mx-auto rounded-top-3 bg justify-content-center d-flex w-100">
+                  <img src="./img/gp_logo.png" alt="Golden Pulp" />
+               </header>
+            
+            </div>
+
+         </div>
+
+         <div class="row m-0 order-md-0 order-1">
+
+            <div class="col-12 px-0">
+
+               <nav>
+                  <ul class="nav bg-warning nav-fill flex-column flex-md-row">
+                     <li class="nav-item">
+                     <a class="nav-link text-black" aria-current="page" href="#">Home</a>
+                  </li>
+                     <li class="nav-item"><a class="nav-link text-black" href="#">Comic Books</a></li>
+                     <li class="nav-item"><a class="nav-link text-black" href="#">Characters</a></li>
+                     <li class="nav-item"><a class="nav-link text-black" href="#">Artists</a></li>
+                     <li class="nav-item"><a class="nav-link text-black" href="#">Writers</a></li>
+                  </ul>
+               </nav>
+
+            </div>
+
+         </div>
+
+         <div class="bg-light row m-0 order-0">
 
             <div class="col-12 col-md-8 px-0">
 
@@ -120,11 +137,11 @@
 
          </div>
 
-         <div class="row m-0">
+         <div class="row m-0 order-2">
 
             <div class="col-12 px-0">
 
-                  <footer class="bg-dark text-white text-center">Golden Pulps: A Comic Book Resource for Collectors and Fans</footer>
+                  <footer class="bg-dark text-white text-center rounded-bottom-3">Golden Pulps: A Comic Book Resource for Collectors and Fans</footer>
 
             </div>
 
